@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.Container-Gloria {
+    position: relative;
+    max-width: 999px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Container-Gloria .H2-Gloria {
+    text-align: center;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.Container-Gloria .Tabel-Gloria {
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+
+.Container-Gloria .Tabel-Gloria tr td {
+    padding: 15px 120px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Container-Gloria .Tabel-Gloria .Input-Gloria, .select-Gloria {
+    padding: 0.5%;
+    width: 250px;
+}
+
+.Container-Gloria .ButtonGloria {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Container-Gloria .ButtonGloria .Button-Gloria, .Tombol-Gloria {
+    padding: 5px;
+}
+
+.Container-Gloria .TabelOutGloria {
+    margin-top: 50px;
+}
+
+.Container-Gloria .TabelOutGloria thead tr th {
+    padding: 30px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+
+.Container-Gloria .TabelOutGloria tr td {
+    word-break: break-word;
+    text-transform: capitalize;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #999;
+
+}

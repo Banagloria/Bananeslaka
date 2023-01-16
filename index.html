@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+    
+        <title>
+            
+            Data Mahasiswa
+        
+        </title>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+    
+        <div class="Container-Gloria" id="Container-Gloria">
+
+            <h2 class="H2-Gloria">
+                
+                DATA MAHASISWA 
+            
+            </h2>
+
+            <h2 class="H2-Gloria">
+                
+                Politeknik Amamapare Timika
+            
+            </h2>
+
+            <hr>
+
+            <form name ="FormGloria">
+
+                <table class="Tabel-Gloria">
+
+                    <tr>
+    
+                        <td>
+
+                            <label>
+                                
+                                NIM
+                            
+                            </label>
+
+                        </td>
+
+                        <td>
+                            
+                            <input type="number" name="NimInput" class="Input-Gloria">
+                        
+                        </td>
+        
+                    </tr>
+
+                    <tr>
+        
+                        <td>
+                            
+                            <label>
+                                
+                                Nama Mahasiswa 
+                            
+                            </label>
+                        
+                        </td>
+
+                        <td>
+                            
+                            <input type="text" name="NamaInput" class="Input-Gloria"> 
+                        
+                        </td>
+        
+                    </tr>
+
+                    <tr>
+    
+                        <td>
+                            
+                            <label>
+                                
+                                Jenis Kelamain
+                            
+                            </label>
+                        
+                        </td>
+
+                        <td>
+    
+                            <select name="JemiskelaminInput" class="select-Gloria">
+        
+                                <option>
+
+                                </option>
+                
+                                <option>
+                                    
+                                    Laki-Laki
+                                
+                                </option>
+                
+                                <option>
+                                    
+                                    Perempuan
+                                
+                                </option>  
+                
+                            </select>
+    
+                        </td>
+    
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <label>
+
+                                Agama
+
+                            </label>
+
+                        </td>
+
+                        <td>
+
+                            <select name="AgamaInput" class="select-Gloria">
+        
+                                <option>
+
+                                </option>
+                
+                                <option>
+                                    
+                                    Islam 
+                                
+                                </option>
+                
+                                <option>
+                                    
+                                    Kristen Protestan 
+                                
+                                </option>  
+                
+                                <option>
+                                    
+                                    Kristen Katolik
+                                
+                                </option>  
+                
+                                <option>
+                                    
+                                    Hindu 
+                                
+                                </option>  
+                
+                                <option>
+                                    
+                                    Buddha 
+                                
+                                </option>  
+                
+                                <option>
+                                    
+                                    Konghucu 
+                                
+                                </option>  
+                
+                            </select> 
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <label>
+
+                                Status
+
+                            </label>
+
+                        </td>
+
+                        <td>
+
+                            <input type="radio" value="Kawin" name="StatusInput" >
+                            
+                            Kawin
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <label>
+
+                                Jurusan S1 UNIKOM
+
+                            </label>
+
+                        </td>
+
+                        <td>
+
+                            <select name="JurusanInput" class="select-Gloria">
+        
+                                <option>
+
+                                </option>
+                
+                                <option>
+                                    
+                                    Teknologi Rekayasa Informatika
+                                
+                                </option>
+                
+                                <option>
+                                    
+                                    Teknik Mesin
+                                
+                                </option>  
+                
+                                <option>
+                                    
+                                    Teknik Sipil
+                                
+                                </option>  
+                
+                                <option>
+                                    
+                                    Teknik Listrik
+                                
+                                </option>  
+                
+                                <option>
+                                    
+                                    Teknik Tambang
+                                
+                                </option>  
+                
+                            </select>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <label>
+
+                                Komentar
+
+                            </label>
+
+                        </td>
+
+                        <td>
+
+                            <textarea class="Input-Gloria" name="KomentarInput" rows="3" cols="30"></textarea>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <div class="ButtonGloria">
+
+                    <input type="button" value="KIRIM" class="Button-Gloria"> 
+    
+                    <input type="reset" value="BERSIKAN" class="Tombol-Gloria">
+    
+
+                </div>
+
+                <table class="TabelOutGloria">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>NIM</th>
+
+                            <th>NAMA MAHASISWA</th>
+
+                            <th>JENIS KELAMIN</th>
+
+                            <th>AGAMA</th>
+
+                            <th>STATUS</th>
+
+                            <th>JURUSAN</th>
+
+                            <th>KOMENTAR</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody class="Output-Gloria">
+
+                        <tr>
+
+                            <td>20522004</td>
+
+                            <td>Bana Gloria Isterina Neslaka</td>
+
+                            <td>Perempuan</td>
+
+                            <td>Kristen Protestan</td>
+
+                            <td>Belum Kawin</td>
+
+                            <td>Telekomunikasi Rekayasa Internet</td>
+
+                            <td>Good Job <br> 100%</td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </form>
+
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
